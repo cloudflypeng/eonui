@@ -1,0 +1,28 @@
+{
+  "name": "xs-components-docs",
+  "type": "module",
+  "version": "1.0.6",
+  "private": true,
+  "scripts": {
+    "dev": "vitepress dev .",
+    "build": "vitepress build .",
+    "serve": "vitepress serve . --port 9581"
+  },
+  "dependencies": {
+    "markdown-it": "^14.1.0",
+    "markdown-it-container": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/escape-html": "^1.0.4",
+    "@types/markdown-it-container": "^2.0.9",
+    "@types/prismjs": "^1.26.3",
+    "@vue/tsconfig": "^0.5.1",
+    "escape-html": "^1.0.3",
+    "fast-glob": "^3.3.2",
+    "kolorist": "^1.8.0",
+    "prismjs": "^1.29.0",
+    "vite-plugin-inspect": "^0.8.3",
+    "vite-plugin-pwa": "^0.19.7",
+    "vitepress": "1.0.1"
+  }
+}
